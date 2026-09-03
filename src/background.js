@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener((msg, s, resp) => { if(msg.action === 'getUltimate') { resp({tools: ['Check Links', 'Clean Links', 'Export Links', 'Sort Links', 'Group Links', 'Archive Links']}); } });
